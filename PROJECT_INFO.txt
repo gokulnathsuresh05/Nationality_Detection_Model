@@ -1,0 +1,35 @@
+# Nationality Detection Model
+
+Developer: Gokulnath Suresh
+
+Project Features:
+- Image upload
+- Face preview
+- Age prediction
+- Ethnicity / Group prediction
+- Emotion detection
+- Dress colour detection
+- Conditional prediction logic
+
+Prediction Logic:
+Indian -> Age + Emotion + Dress Colour
+White / United States -> Age + Emotion
+Black / African -> Emotion + Dress Colour
+Asian / Other -> Group + Emotion
+
+Models:
+- UTKFace Age + Ethnicity Model
+- FER2013 Emotion Model
+- Human Clothing Colour Model
+
+Technologies:
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- Pillow
+- Tkinter
+
+Important Disclaimer:
+The system predicts model-based ethnicity/group categories.
+It does not determine legal nationality, citizenship, or country of origin.
